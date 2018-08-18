@@ -3,10 +3,11 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color:#2b2b2b;
+    min-width: 1250px; 
 }
 
 #about, #work, #contact {
-    height: 600px;
+    overflow: auto;
 }
 
 /***** GRID *****/
